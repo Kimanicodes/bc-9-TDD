@@ -1,4 +1,7 @@
+[https://travis-ci.org/Kimanicodes/bc-9-TDD.svg?branch=master]
+
 # TDD Assignment
+
 >A repository for the TDD Assignment.
 
 1. Create a repo named [bc-9-tdd]
