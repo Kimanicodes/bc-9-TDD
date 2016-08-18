@@ -1,4 +1,4 @@
-[https://travis-ci.org/Kimanicodes/bc-9-TDD.svg?branch=master]
+[![Build Status](https://travis-ci.org/Kimanicodes/bc-9-TDD.svg?branch=master)](https://travis-ci.org/Kimanicodes/bc-9-TDD)
 
 # TDD Assignment
 
