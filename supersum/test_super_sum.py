@@ -27,6 +27,9 @@ class TestSuperSum(unittest.TestCase):
         result3 = super_sum(1, 4, [3, 5])
         self.assertIn(result3, [13, 9, 7])
 
+    def test_if_sum_works_with_floats(self):
+        self.assertEqual(super_sum([11.2, 5.6], 5), 21.8)
+
     def test_if_string_in_list(self):
         self.assertEqual(super_sum(['', '']), "Your list has non integer items",
                          msg="Should return message-->Your list has non integer items")
