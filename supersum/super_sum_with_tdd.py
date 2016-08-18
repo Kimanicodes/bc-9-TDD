@@ -5,12 +5,12 @@ def super_sum(*args):  # using args for the function
     for argument in args:
         if type(argument) is list:
             for number in argument:
-                if type(number) is int:
+                if type(number) is int or type(number) is float:
                         total_list = total_list + number
                 else:
                     return "Your list has non integer items"
         else:
-            if type(argument) is int:
+            if type(argument) is int or type(argument) is float:
                 total_int = total_int + argument
             else:
                 return None
