@@ -3,6 +3,4 @@ python:
   - "2.7"
   - "3.4"
 # command to run tests
-script: 
-  - python test_super_sum.py
-  - python test_addition.py
+script: nosetests
