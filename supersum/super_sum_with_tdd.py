@@ -15,4 +15,4 @@ def super_sum(*args):  # using args for the function
             else:
                 return None
     total = total_int + total_list
-    return total
+    return int(total)
