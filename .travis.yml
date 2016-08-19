@@ -5,3 +5,4 @@ python:
 # command to run tests
 script:
   - python sum/test_addition.py
+  - python supersum/test_super_sum.py
