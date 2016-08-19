@@ -25,7 +25,7 @@ class TestsSum(unittest.TestCase):
 
     def test_for_no_arguments(self):
         """Test no arguments passed"""
-        self.assertEqual(my_sum(), None, msg="No arguments passed")
+        self.assertIsNotNone(my_sum(2, 5), msg="No arguments passed")
 
     def test_not_numbers(self):
         """Test to make sure the number is an integer"""
