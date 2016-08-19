@@ -23,20 +23,20 @@ class TestFizzBuzz(unittest.TestCase):
 
     def test_result_is_string(self):
         result1 = fizz_buzz(12)
-        self.assertIs(result1, str)
+        self.assertIsNot(result1, str)
 
     def test_result_for_number_is_int(self):
-        self.assertNotEqual(fizz_buzz(17, '17'))
+        self.assertNotEqual(fizz_buzz(17), '17')
 
     def test_error_raised(self):
         with self.assertRaises(TypeError):
             fizz_buzz('')
 
     def test_result_is_returned(self):
-        self.assertTrue(fizz_buzz(12))
+        self.assertIsNotNone(fizz_buzz(12))
 
     def test_returned_value_is_an_integer(self):
-        self.assertEqual(type(fizz_buzz(15)), int)
+        self.assertEqual(type(fizz_buzz(15)), str)
 
 
 if __name__ == "__main__":

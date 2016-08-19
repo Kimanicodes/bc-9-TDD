@@ -6,3 +6,4 @@ python:
 script:
   - python sum/test_addition.py
   - python supersum/test_super_sum.py
+  - python outputs/test_fizz_buzz.py
