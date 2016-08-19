@@ -2,7 +2,7 @@ import unittest
 from addition import my_sum
 
 
-class TestsSum(unittest.TestCase):
+class TestSumFunction(unittest.TestCase):
     def test_sum1(self):
         """Test sum of Numbers passed to be 10 for 4 and 6"""
         self.assertEqual(my_sum(4, 6), 10)
@@ -10,10 +10,6 @@ class TestsSum(unittest.TestCase):
 
     def test_sum2(self):
         self.assertIsNotNone(my_sum(1, 2))
-
-    def test_not_sum(self):
-        """Test that the sum of numbers 7 and 8 is only 15"""
-        self.assertNotEqual(my_sum(2, 23456789), 2)
 
     def test_negative_numbers(self):
         """Test negative numbers"""
