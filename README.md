@@ -21,3 +21,4 @@ super_sum([5, 6], [4, 5], 10) => 30
 1. Write the tests, then do a commit and push
 
 2. Write the implementation of your function
+
